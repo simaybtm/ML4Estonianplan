@@ -4,7 +4,7 @@ from sklearn.svm import SVC
 from sklearn.pipeline import make_pipeline
 import joblib
 
-def main (model):
+def main():
     # Load the extended synthetic data
     synthetic_data = pd.read_csv('extended_synthetic_layer_mapping.csv')
 
@@ -25,9 +25,20 @@ def main (model):
     joblib.dump(model, 'synthetic_model.pkl')
 
     print("Synthetic model created and saved.")
-
-    return model
+    
+    # Predict all the categories
+    predictions = model.predict(X_synthetic)
+    
+    # Add predictions to the synthetic data
+    synthetic_data['predicted_discipline'] = predictions
+    
+    # Delete duplicates
+    synthetic_data.drop_duplicates(subset='discipline', keep='first', inplace=True)
+    
+    # Save the synthetic data with predictions to a CSV file
+    synthetic_data.to_csv('output.csv', index=False)
+    
+    print("Predictions saved to output.csv.")
 
 if __name__ == '__main__':
     main()
-    

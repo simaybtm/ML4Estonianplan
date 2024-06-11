@@ -38,8 +38,9 @@ def main():
         return
     
     # Run the synthetic data generation script
+    print("Running synthetic data generation script and then testing the input data against the trained model...")
     run_synthetic_data_generation()
-    print("--Synthetic data generation completed.")
+    print("--Testing against the trained model completed.")
     print ("     ")
     print("All done!")
 

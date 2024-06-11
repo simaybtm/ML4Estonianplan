@@ -9,3 +9,6 @@ output.csv
 ml.log
 input.csv
 extended_synthetic_layer_mapping.csv
+ml.fmw.recover
+ml_after.log
+__pycache__/_3_test_model.cpython-39.pyc
