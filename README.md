@@ -21,6 +21,7 @@ As an additional step to the main thesis research, a test model script (`_3_test
     python model_creation.py
     ```
 Below shows a snippet of an example `output.csv`.
+
 ![Screenshot 2024-06-11 212334](https://github.com/simaybtm/ML4Estonianplan/assets/72439800/e1aee827-53e4-4610-97d4-02139c82109e)
 
 ### Step 2: Execute Test Model Script (Optional)
