@@ -26,6 +26,12 @@ def main(model):
     
     print("Test finished.")
     
+    # Save the predictions to a CSV
+    fme_data['predicted_discipline'] = predictions
+    fme_data.to_csv('output.csv', index=False)
+    print("Predictions saved to output.csv.")
+    
+    
 if __name__ == '__main__':
     model = joblib.load('synthetic_model.pkl')
     main(model)
