@@ -6,7 +6,7 @@ This project is a part of my thesis research on implementing LADM into the autom
 
 ## Overview
 
-The main objective of this project is to extract insights from Estonian spatial plan layer names using data analysis and machine learning. The project involves several steps including data preprocessing, feature engineering, model training, and evaluation.
+The main objective of this project is to extract insights from Estonian spatial plan layer names using data analysis and machine learning. The project involves several steps including data preprocessing, feature engineering, model training, and evaluation. Below is a snippet of the layer requirements for Estonian Detailed Plans.
 ![Screenshot 2024-06-11 211557](https://github.com/simaybtm/ML4Estonianplan/assets/72439800/9b4ad86b-7555-4fee-9f93-0fb35b54d2b2)
 
 ### Additional Step: Test Model Script
