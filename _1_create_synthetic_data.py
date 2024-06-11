@@ -45,9 +45,6 @@ def main():
     additional_element_type = [
         'NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN'
     ]
-    # print both list to check if same length
-    print(f"Length of additional_discipline: {len(additional_discipline)}")
-    print(f"Length of additional_element_type: {len(additional_element_type)}")
 
     # Extend the existing lists with the additional elements
     synthetic_data['discipline'].extend(additional_discipline)
