@@ -12,7 +12,7 @@ As an additional step to the main thesis research, a test model script (`_3_test
 
 ## Usage
 
-Run (`run_all.py`) o create sthetic data for Estonian detailed planning semantics, creating a tranining model usiing this and testing the (`input.csv`) file against the model to predict layer names.
+Run (`run_all.py`) to create synthetic data for Estonian detailed planning semantics, creating a training model using this and testing the (`input.csv`) file against the model to predict layer names.
 
 ## Data Sources
 
