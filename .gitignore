@@ -1,8 +1,4 @@
 AI4ARCH/input.csv
-ai.log
-ai.fmw
-ml_after.fmw
-ml.fmw
 ml_after.fmw.recover
 synthetic_model.pkl
 output.csv
