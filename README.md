@@ -1,6 +1,8 @@
 # Spatial Plan Data Analysis
 
 This project is a part of my thesis research on implementing LADM into the automated permit checks pipeline for the case study Estonia. It aims to analyze Estonian spatial plan data semantics using machine learning techniques.
+![Screenshot 2024-06-11 211439](https://github.com/simaybtm/ML4Estonianplan/assets/72439800/5c6afccc-e558-493d-bb6d-4820b136e576)
+
 
 ## Overview
 
