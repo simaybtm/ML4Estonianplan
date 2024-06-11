@@ -8,7 +8,7 @@ The main objective of this project is to extract insights from Estonian spatial 
 
 ### Additional Step: Test Model Script
 
-As an additional step to the main thesis research, a test model script (fme2result.py) has been integrated into the project. This script first runs an FME script to extract input data from real Estonian spatial plan data, then generates synthetic data, creates a training model, and finally tests the input data against the model to predict layer names.
+As an additional step to the main thesis research, a test model script ('fme2result.py') has been integrated into the project. This script first runs an FME script to extract input data from real Estonian spatial plan data, then generates synthetic data, creates a training model, and finally tests the input data against the model to predict layer names.
 
 ## Usage
 
