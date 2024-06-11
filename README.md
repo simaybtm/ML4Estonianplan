@@ -19,6 +19,9 @@ As an additional step to the main thesis research, a test model script (`fme2res
 
 The input data (`input.csv`) used in the `fme2result.py` script is extracted from real Estonian spatial plan data. The data extraction is performed using FME scripts developed during the thesis research. The original data sources are not included in this repository due to privacy and licensing restrictions.
 
+## Limits 
+This project works only for Estonian Detailed Plan data standards.
+
 ## Links
 
 Main Thesis Research GitHub Repository: [link](https://github.com/simaybtm/xxx)
