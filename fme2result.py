@@ -5,7 +5,7 @@ def run_fme_script():
     # Specify the full path to the FME executable
     fme_path = r'C:\Program Files\FME\fme.exe'
     # Replace 'ai.fmw' with the filename of your FME script
-    fme_script_path = 'ai.fmw'
+    fme_script_path = 'ml.fmw'
     
     if not os.path.exists(fme_script_path):
         print("FME script not found at:", fme_script_path)
